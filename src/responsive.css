@@ -1,0 +1,64 @@
+/* index.css */
+
+/* For screens up to 640px */
+@media (max-width: 640px) {
+    /* Header */
+    .h-20 {
+      height: auto;
+    }
+    /* Adjust other Header styles */
+  
+    /* Banner */
+    .main-container {
+      padding: 16px;
+    }
+    .text-4xl {
+      font-size: 2rem;
+    }
+    .main-container {
+        flex-direction: column; /* Change flex-direction to column */
+      }
+    
+      .left {
+        order: 2; /* Change the order of the left container */
+      }
+    
+      .right {
+        order: 1; /* Change the order of the right container */
+      }
+    /* Adjust other Banner styles */
+  
+    /* About */
+    .main {
+      flex-direction: column;
+    }
+    .image,
+    .about {
+      width: 100%;
+    }
+    /* Adjust other About styles */
+  
+    /* Projects */
+    .service-container {
+      flex-direction: column;
+    }
+    /* Add margin to each item */
+    .service1,
+    .service2,
+    .service3 {
+      margin-bottom: 16px;
+    }
+    /* Adjust other Projects styles */
+  
+    /* Expertise */
+    .box-container {
+      flex-direction: column;
+    }
+    /* Adjust other Expertise styles */
+  
+    /* Footer */
+    .px-72 {
+      padding: 16px;
+    }
+    /* Adjust other Footer styles */
+  }
