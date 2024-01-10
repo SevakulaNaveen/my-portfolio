@@ -25,12 +25,12 @@ const Header = () => {
         link: "/contact",
         id: 5,
     }])
-    const handleDownload = () => {
-        const resumePath = '/Naveen_Resume.pdf';
+    // const handleDownload = () => {
+    //     const resumePath = '/Naveen_Resume.pdf';
 
-        // Open the PDF file in a new window or tab
-        window.open(resumePath, '_blank');
-    };
+    //     // Open the PDF file in a new window or tab
+    //     window.open(resumePath, '_blank');
+    // };
     return (
         <>
             <div className="h-20 border main flex justify-between items-center bg-gray-100 px-16">
@@ -42,7 +42,8 @@ const Header = () => {
                     {menuItems.map((items) => <a href={items.link} className="hover:text-orange-600" key={items.id}>{items.name}</a>)}
                 </div>
                 <div>
-                    <button onClick={handleDownload} className="px-4 py-2 bg-orange-500 shadow rounded-full text-1xl text-white ">Download CV</button>
+                    {/* <button onClick={handleDownload} className="px-4 py-2 bg-orange-500 shadow rounded-full text-1xl text-white ">Download CV</button> */}
+                    <a href="https://drive.google.com/file/d/1S0Lvf0ouDtCiaUgy4rblW242V_sz-0Ad/view?usp=drive_link" className="px-4 py-2 bg-orange-500 shadow rounded-full text-1xl text-white ">Download CV</a>
                 </div>
             </div>
         </>
