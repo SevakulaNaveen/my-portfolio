@@ -12,10 +12,10 @@ const Projects = () => {
                         <a href="https://github.com/SevakulaNaveen/SESPHR" className="px-3 py-2 bg-orange-500 text-white rounded-full shadow-lg">Check</a>
                     </div>
                     <div className="bg-slate-100 hover:bg-gray-100 text-center  cursor-pointer p-5 shadow-lg rounded-xl service2 space-y-4">
-                        <h1 className="text-4-xl">Product CRUD</h1>
-                        <p>The Product CRUD App is a Spring MVC and Spring ORM-based application designed to manage product information efficiently.</p>
+                        <h1 className="text-4-xl">Anime Store</h1>
+                        <p>Developed Anime Haven Hub, a dynamic platform for anime fans where they can explore different categories of animes using MERN Stack</p>
                         <br />
-                        <a href="https://github.com/SevakulaNaveen/product_crud" className="px-3 py-2 bg-orange-500 text-white rounded-full shadow-lg">Check</a>
+                        <a href="https://github.com/SevakulaNaveen/animestore" className="px-3 py-2 bg-orange-500 text-white rounded-full shadow-lg">Check</a>
                     </div>
                     <div className="bg-slate-100 hover:bg-gray-100 text-center cursor-pointer p-5 shadow-lg rounded-xl service3 space-y-4">
                         <h1 className="text-4-xl">Myntra Clone</h1>

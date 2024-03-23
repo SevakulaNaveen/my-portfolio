@@ -10,8 +10,9 @@ const Banner = () => {
                 "Java ",
                 "Spring Framework",
                 "Java Script",
-                "React JS",
-                "MySQL Database"
+                "MERN Stack",
+                "MySQL",
+                "AWS"
             ],
             startDelay: 300,
             typeSpeed: 60,

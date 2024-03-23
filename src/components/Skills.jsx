@@ -37,49 +37,62 @@ const Expertise = () => {
                             </p>
 
                             <p className="bg-gray-300 w-fit px-3 py-2 mt-2 rounded-full hover:bg-orange-500 cursor-pointer">
-                                J2EE
+                                Python
                             </p>
 
                             <p className="bg-gray-300 w-fit px-3 py-2 mt-2 rounded-full hover:bg-orange-500 cursor-pointer">
-                                Hibernate(ORM Tool)
+                                Java Script
                             </p>
 
                             <p className="bg-gray-300 w-fit px-3 py-2 mt-2 rounded-full hover:bg-orange-500 cursor-pointer">
-                                Spring Framework
+                                MySQL
                             </p>
                             <p className="bg-gray-300 w-fit px-3 py-2 mt-2 rounded-full hover:bg-orange-500 cursor-pointer">
-                                Spring Core
+                                MongoDB
                             </p>
                             <p className="bg-gray-300 w-fit px-3 py-2 mt-2 rounded-full hover:bg-orange-500 cursor-pointer">
-                                Spring JDBC
+                                JDBC
                             </p>
                             <p className="bg-gray-300 w-fit px-3 py-2 mt-2 rounded-full hover:bg-orange-500 cursor-pointer">
-                                Spring ORM
+                                Linux
                             </p>
                             <p className="bg-gray-300 w-fit px-3 py-2 mt-2 rounded-full hover:bg-orange-500 cursor-pointer">
-                                Spring MVC
+                                Bash Scripting
                             </p>
                             <p className="bg-gray-300 w-fit px-3 py-2 mt-2 rounded-full hover:bg-orange-500 cursor-pointer">
-                                Spring Data JPA
+                                AWS
                             </p>
                             <p className="bg-gray-300 w-fit px-3 py-2 mt-2 rounded-full hover:bg-orange-500 cursor-pointer">
-                                Spring Web MVC
+                                Docker
                             </p>
                             <p className="bg-gray-300 w-fit px-3 py-2 mt-2 rounded-full hover:bg-orange-500 cursor-pointer">
-                                JavaScript
+                                Spring
+                            </p>
+                            <p className="bg-gray-300 w-fit px-3 py-2 mt-2 rounded-full hover:bg-orange-500 cursor-pointer">
+                                Hibernate
+                            </p>
+                            <p className="bg-gray-300 w-fit px-3 py-2 mt-2 rounded-full hover:bg-orange-500 cursor-pointer">
+                                Node.js
+                            </p>
+                            <p className="bg-gray-300 w-fit px-3 py-2 mt-2 rounded-full hover:bg-orange-500 cursor-pointer">
+                                Express.js
+                            </p>
+                            <p className="bg-gray-300 w-fit px-3 py-2 mt-2 rounded-full hover:bg-orange-500 cursor-pointer">
+                                ReactJS
                             </p>
                             <p className="bg-gray-300 w-fit px-3 py-2 mt-2 rounded-full hover:bg-orange-500 cursor-pointer">
                                 HTML
                             </p>
                             <p className="bg-gray-300 w-fit px-3 py-2 mt-2 rounded-full hover:bg-orange-500 cursor-pointer">
+                                CSS
+                            </p>
+                            <p className="bg-gray-300 w-fit px-3 py-2 mt-2 rounded-full hover:bg-orange-500 cursor-pointer">
                                 Tailwind CSS
                             </p>
                             <p className="bg-gray-300 w-fit px-3 py-2 mt-2 rounded-full hover:bg-orange-500 cursor-pointer">
-                                React JS
+                                Bootstrap
                             </p>
-                            <p className="bg-gray-300 w-fit px-3 py-2 mt-2 rounded-full hover:bg-orange-500 cursor-pointer">
-                                SQL
-                            </p>
+
                         </div>
                     </div>
                 </div>

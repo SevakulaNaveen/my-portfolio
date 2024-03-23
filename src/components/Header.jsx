@@ -2,29 +2,14 @@ import { useState } from "react";
 
 const Header = () => {
     const [name, setName] = useState("Shevakula Naveen")
-    const [menuItems, setMenuItems] = useState([{
-        name: "Home",
-        link: "/home",
-        id: 1,
-    },
-    {
-        name: "About",
-        link: "/about",
-        id: 2,
-    },
-    {
-        name: "Skills",
-        link: "/skills",
-        id: 3,
-    }, {
-        name: "Portfolio",
-        link: "/portfolio",
-        id: 4,
-    }, {
-        name: "Contact",
-        link: "/contact",
-        id: 5,
-    }])
+    const baseUrl = "/my-portfolio"; // Define your base URL here
+    const [menuItems, setMenuItems] = useState([
+        { name: "Home", link: `${baseUrl}/home`, id: 1 },
+        { name: "About", link: `${baseUrl}/about`, id: 2 },
+        { name: "Skills", link: `${baseUrl}/skills`, id: 3 },
+        { name: "Portfolio", link: `${baseUrl}/portfolio`, id: 4 },
+        { name: "Contact", link: `${baseUrl}/contact`, id: 5 }
+    ]);
     // const handleDownload = () => {
     //     const resumePath = '/Naveen_Resume.pdf';
 
