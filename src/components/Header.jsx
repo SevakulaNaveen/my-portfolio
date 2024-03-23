@@ -24,7 +24,7 @@ const Header = () => {
                 </div>
                 <div className="space-x-6">
 
-                    {menuItems.map((items) => <a href={items.link} className="hover:text-orange-600" key={items.id}>{items.name}</a>)}
+                    {menuItems.map((items) => <a href='#' className="hover:text-orange-600" key={items.id}>{items.name}</a>)}
                 </div>
                 <div>
                     {/* <button onClick={handleDownload} className="px-4 py-2 bg-orange-500 shadow rounded-full text-1xl text-white ">Download CV</button> */}
